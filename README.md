@@ -48,4 +48,4 @@ While this is a personal learning journey, suggestions, advice, and contribution
 
 ## Contact
 
-If you have any questions or would like to connect, please reach out to me at [your-email] or [your-social-media].
+If you have any questions or would like to connect, please reach out to me at razi.alawamleh@gmail.com or linktr.ee/razi.a .
