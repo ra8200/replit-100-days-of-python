@@ -1,0 +1,13 @@
+print("Look this is a dumb set of question. Sooo... just answer them")
+print()
+print("Enter a Starting number")
+startingNumber = int(input())
+print()
+print("Enter an Ending number ")
+endingNumber = int(input())
+print()
+print("Enter a number to increment from the Starting to the Ending. Don't be a jackass. It has to make sense. okay?")
+incrementNumber = int(input())
+print()
+for i in range (startingNumber, endingNumber, incrementNumber):
+  print(i)
