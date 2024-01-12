@@ -1,0 +1,20 @@
+import os, time
+
+print("🌟Star Wars Name Generator🌟")
+print()
+print("Input your first name")
+first_name = input().capitalize()
+print()
+print("Input your lastname")
+last_name = input().lower()
+print()
+print("Input your mother's maiden name")
+maiden_name = input().capitalize()
+print()
+print("Input the city where you were born")
+city_name = input().lower()
+print()
+os.system("clear")
+time.sleep(1)
+
+print(f"Your Star Wars name is {first_name[0:3]}{last_name[0:3]} {maiden_name[0:2]}{city_name[0:3]}")
