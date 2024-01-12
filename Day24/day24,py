@@ -1,0 +1,16 @@
+import random
+print("Infinity Dice Game")
+print()
+diceSize = int(input("How many sides does the dice have?: "))
+play = "yes"
+
+def rollDice(diceSize):
+  print("You rolled", random.randint(1, diceSize))
+while play == "yes":
+  rollDice(diceSize)
+  play = input("Roll again? ")
+  if play == "yes":
+    continue
+  else:
+    print("thank you")
+    break
