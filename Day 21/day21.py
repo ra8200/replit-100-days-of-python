@@ -8,8 +8,8 @@ print()
 
 counter = 0
 for i in range(1, 11):
-  correct_answer = i*fact_family
-  print(i, "x", fact_family)
+  correct_answer = i*user
+  print(i, "x", user)
   answer = int(input("> "))
   if answer == correct_answer:
     print("You got it right!")
